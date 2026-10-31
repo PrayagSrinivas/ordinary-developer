@@ -9,7 +9,7 @@ Code for the videos on The Ordinary Developer. Every episode starts from the ide
 | Playlist | Folder | Status |
 |---|---|---|
 | NeetCode 150 | [`neetcode/`](neetcode/) | In progress |
-| System Design | Coming soon | Not started |
+| System Design | [`system-design/`](system-design/) | In progress |
 
 ## Run the code
 
@@ -19,4 +19,8 @@ You only need Python 3. There's nothing to install.
 python3 neetcode/003-two-sum/solution.py
 ```
 
-Each file checks itself and prints a short result.
+Each file checks itself and prints a short result. System Design episodes have a small simulation you can run the same way:
+
+```bash
+python3 system-design/001-load-balancing/simulation.py
+```
