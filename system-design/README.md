@@ -5,5 +5,6 @@ Small Python simulations for the System Design playlist. Each one lets you run t
 | # | Topic | Worst idea | Better idea | Best | Code |
 |---|---|---|---|---|---|
 | 001 | Load Balancing | One bigger server | Round robin | Health checks and least connections | [simulation.py](001-load-balancing/simulation.py) |
+| 002 | Caching | Query the database every time | A cache on each server | One shared cache with an expiry | [simulation.py](002-caching/simulation.py) |
 
 The numbers in these simulations are small examples for learning, not real benchmarks.
